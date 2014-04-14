@@ -1,0 +1,22 @@
+.sexy-menu {
+  position: fixed;
+  background: white;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  transition: all .3s ease-out;
+}
+
+.sexy-menu.detached {
+  margin-top: -100%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.sexy-menu.visible {
+  margin-top: 0;
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
