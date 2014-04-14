@@ -1,3 +1,5 @@
+/*! sexymenu.js, 0.1.0: 14-04-2014 */
+
 (function($, window, undefined) {
   var pluginName = 'sexymenu',
       defaults = {
